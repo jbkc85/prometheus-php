@@ -86,6 +86,15 @@ When running PHP, you run into two situations: Sometimes users don't have access
 
 If you have any questions or comments, please email jbkc85@gmail.com.
 
+EXAMPLES
+========
+
+When you visit the site, you will see something similar to this:
+
+![metrics-example](images/metrics-example.png)
+
+SS of prometheus metrics to come...I am at OSCON after all!
+
 TODO
 ====
 
