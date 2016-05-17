@@ -11,7 +11,7 @@ $php_sapi = php_sapi_name();
  * - create CURL call to status?json page (configured in php-fpm.conf)
  * - json_decode CURL call
  **/
-$phpfpm_url = "http://127.0.0.1/promphpinfo/status?json";
+$phpfpm_url = "http://127.0.0.1/fpm-metrics/status?json";
 $phpfpm_info = json_decode(file_get_contents($phpfpm_url),true);
 
 /**
