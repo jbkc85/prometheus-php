@@ -91,7 +91,7 @@ EXAMPLES
 
 When you visit the site, you will see something similar to this:
 
-![metrics-example](images/metrics-example.png)
+![metrics-example](metrics-example.png)
 
 SS of prometheus metrics to come...I am at OSCON after all!
 
