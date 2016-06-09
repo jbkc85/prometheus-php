@@ -64,13 +64,13 @@ promphp_fpm_proc_total{handler="{$php_sapi}"} {$phpfpm_info["total processes"]}
 # TYPE promphp_fpm_conn_accepted counter
 promphp_fpm_conn_accepted{handler="{$php_sapi}"} {$phpfpm_info["accepted conn"]}
 # HELP promphp_moodle_count_users Outputs count of users in database
-# # TYPE promphp_moodle_count_users counter
+# TYPE promphp_moodle_count_users counter
 promphp_moodle_count_users{handler="moodle"} {$moodle_stats["users"]}
-# # HELP promphp_moodle_count_courses Outputs count of courses in database
-# # TYPE promphp_moodle_count_courses counter
+# HELP promphp_moodle_count_courses Outputs count of courses in database
+# TYPE promphp_moodle_count_courses counter
 promphp_moodle_count_courses{handler="moodle"} {$moodle_stats["courses"]}
-# # HELP promphp_moodle_count_logins Outputs Logins from the last 5 minutes
-# # TYPE promphp_moodle_count_logins counter
+# HELP promphp_moodle_count_logins Outputs Logins from the last 5 minutes
+# TYPE promphp_moodle_count_logins counter
 promphp_moodle_count_logins{handler="moodle"} {$moodle_stats["logins"]}]]]
 
 END;
